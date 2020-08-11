@@ -1,0 +1,98 @@
+header{
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url("flywheel.jpg");
+
+
+}
+header>h1{
+  color: white;
+}
+nav{
+  padding: 30px;
+  text-align: center;
+}
+nav a
+  {
+  font-family: satisfy,cursive;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid gray transparant;
+  width: 10%;
+  padding: 10px 15px;
+  margin: 2px 2px;
+  color: black;
+  margin-right: 50px;
+  background-color: white;
+  opacity: 0.6;
+}
+
+
+nav a:hover{
+  background-color: white;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.active{
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+
+.left{
+  float: left;
+  background-color: dodgerblue;
+  width: 260px;
+  padding:2%;
+  margin: 0;
+}
+.left img{
+  height: 150px;
+  width: 200px;
+  display: block;
+  padding: 0 auto;
+  margin: 0 auto;
+  border: 2px solid white;
+  margin-top: 3px;
+}
+
+.right{
+  display: inline;
+  clear: both;
+  }
+
+  .right h2{
+    background-color: tomato;
+    text-transform: uppercase;
+    padding-left: 22%;
+    }
+
+    .right p{
+      font-family: fantasy;
+      background-color: #e7e7e7;
+      padding-left: 22%;
+    }
+ul{
+  list-style-type:  none;
+}
+    ul a{
+      text-decoration: none;
+      margin-left: 2%;
+      display: inline-block;
+      float: left;
+      border: 2px solid black;
+      font-size: 20px;
+      padding: 0.5%;
+      color: black;
+      background-color: #e7e7e7;
+      opacity: 0.6; 
+    }
+
+ul a:hover{
+  background-color: tomato;
+  transition: 0.3s;
+  opacity: 1;
+}
